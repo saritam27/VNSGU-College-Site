@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+.top-button {
+    background-color: #ec6c05;
+    width: 110px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.top-left>ul>li {
+    color: white;
+}
+
+.main {
+    background-color: #002147;
+}
+
+.top-right {
+    color: white;
+}
+
+.A {
+    font-size: 12px;
+    border: 1px solid white;
+    background-color: white;
+    color: #0000ff;
+    margin-left: 3px;
+    padding: 1px;
+}
+
+.top-left>ul {
+    margin-top: 12px;
+}
+
+.top-right>ul {
+    margin-top: 12px;
+    margin-left: 60px;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #337ab3;
+    font-weight: 600;
+    margin-right: 0px;
+}
+
+.nav-link:hover {
+    color: #ec6c05;
+}
+
+.Active {
+    color: #ec6c05;
+}
+
+.FirstPagelist {
+    list-style: none;
+    background-color: #002147;
+    margin-right: 10px;
+    font-weight: 600;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.FirstPagelist:hover {
+    cursor: pointer;
+    background-color: #ec6c05;
+    color: white;
+    transition: all .5s;
+}
+
+.scrollBar>li {
+    padding: 10px;
+    color: #337ab7;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+.demo {
+    margin-bottom: 10px;
+}
+
+.demo>a {
+    color: white;
+}
+
+.demo>a:hover {
+    color: #ec6c05;
+}
+
+.images>img {
+    width: 150px;
+    height: 50px;
+}
+
+.iconCreation>svg {
+    border: 1px solid #2b5788;
+    margin-right: 5px;
+    padding: 6px;
+}
+
+.carousel-control-next>div,
+.carousel-control-prev>div {
+    background-color: #002147;
+    border-radius: 100px;
+    padding: 10px 10px 5px 10px;
+}
+
+.slider-static-bg {
+    cursor: pointer;
+    background-color: #041e3c;
+}
+
+.slider-title {
+    font-size: 22px;
+}
+
+.slider-title:hover {
+    font-size: 23px;
+    color: #ec6c05;
+    transition: all .3s;
+}
+
+.slider-sub-title {
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.slider-side-image>i {
+    font-size: 30px;
+    color: #ec6c05;
+}
